@@ -49,35 +49,82 @@ img:hover {
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
 /* create your tile classes! we recommend .small .med .large */
-.pic1{
-   grid-column-start: 1;
-   grid-column-end: 3;
-   grid-row-start: 1;
-   grid-row-end: 3;
+.green{
+  display: grid;
+}
+.pic1,
+.pic2,
+.pic3,
+.pic5,
+.pic6{
+   width: 200px;
+   margin: 0;
+   justify-content: flex-start;
+}
+.pic4{
+  width: 400px;
+  margin: 0;
+}
+.pic-1,
+.pic-2,
+.pic-3,
+.pic-5,
+.pic-6{
+   width: 200px;
+   margin: 0;
+}
+.pic-4{
+  width:  400px;
 }
 
+.pic1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
 .pic2{
   grid-column-start: 1;
-   grid-column-end: 3;
-   grid-row-start: 3;
-   grid-row-end: 6;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
-
 .pic3{
   grid-column-start: 1;
-   grid-column-end: 3;
-   grid-row-start: 6;
-   grid-row-end: 9;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.pic4{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.pic5{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.pic6{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+/*#######################################################*/
+
+.red{
+  width: 500px;
+  margin: 0;
+}
+.redd{
+  width: 500px;
+  justify-content: center;
+  margin: 0;
 }
 
-
-
-
-.small{
-  display: grid;
-
-
-}
 
 .med{
 
